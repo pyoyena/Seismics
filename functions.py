@@ -82,12 +82,6 @@ def process_seimics(segy_path, cmp_positions, velocity_range=(1500, 7000), veloc
     plt.xlabel("Position (m)")
     plt.ylabel("Time (s)")
     plt.show()    
-
-    seismic.imageseis(zosection, x=x_mig, t=t_mig)
-    plt.title("Stacked Section (Before Migration)")
-    plt.xlabel("Position (m)")
-    plt.ylabel("Time (s)")
-    plt.show()
     """
 
     # Loading data 
